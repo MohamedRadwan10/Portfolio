@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Style from "./NavBar.module.css";
 
 export default function NavBar() {
-  const currentMode = localStorage.getItem("currentMode") || "light";
+  const currentMode = localStorage.getItem("currentMode") || "dark";
   const [theme, setTheme] = useState(currentMode);
 
   useEffect(() => {
