@@ -1,0 +1,11 @@
+.product {
+    border-radius: 10px;
+    border: 3px solid gray;
+    padding: 5px 0px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .product:hover {
+    border-color: rgb(0, 128, 255);
+    transform: rotate(2deg);
+  }
